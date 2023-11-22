@@ -26,19 +26,19 @@ const Footer = () => {
             </div>
             <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                 <h5 className="mb-4">Our Products</h5>
-                <a className="btn btn-link" href="">One WA Sender</a>
-                <a className="btn btn-link" href="">Google Map Data Extractor</a>
-                <a className="btn btn-link" href="">WhatsApp Warmer</a>
-                <a className="btn btn-link" href="">WhatsApp API</a>
-                <a className="btn btn-link" href="">WhatsApp CRM</a>
+                <a className="btn btn-link" href="/">One WA Sender</a>
+                <a className="btn btn-link" href="/">Google Map Data Extractor</a>
+                <a className="btn btn-link" href="/">WhatsApp Warmer</a>
+                <a className="btn btn-link" href="/">WhatsApp API</a>
+                <a className="btn btn-link" href="/">WhatsApp CRM</a>
             </div>
             <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                 <h5 className="mb-4">Popular Link</h5>
-                <a className="btn btn-link" href="">About Us</a>
-                <a className="btn btn-link" href="">Contact Us</a>
-                <a className="btn btn-link" href="">Privacy Policy</a>
-                <a className="btn btn-link" href="">Terms & Condition</a>
-                <a className="btn btn-link" href="">Career</a>
+                <a className="btn btn-link" href="/about">About Us</a>
+                <a className="btn btn-link" href="/">Contact Us</a>
+                <a className="btn btn-link" href="/">Privacy Policy</a>
+                <a className="btn btn-link" href="/">Terms & Condition</a>
+                <a className="btn btn-link" href="/">Career</a>
             </div>
         </div>
     </div>
@@ -54,10 +54,10 @@ const Footer = () => {
                 </div>
                 <div className="col-md-6 text-center text-md-end">
                     <div className="footer-menu">
-                        <a href="">Home</a>
-                        <a href="">Cookies</a>
-                        <a href="">Help</a>
-                        <a href="">FAQs</a>
+                        <a href="/">Home</a>
+                        <a href="/">Cookies</a>
+                        <a href="/">Help</a>
+                        <a href="/">FAQs</a>
                     </div>
                 </div>
             </div>

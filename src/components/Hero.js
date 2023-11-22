@@ -1,11 +1,10 @@
 import React from 'react'
 import Feature from './Feature'
-import Product from './Product'
-import image11 from "../images/shampoo_3.png"
+import image11 from "../images/oneWaS.png"
 import image1 from "../images/product-1.png"
 import Footer from './Footer'
 import NewsLetter from "./NewsLetter"
-// import Contact from "./Contact"
+import whatsappimage from "../images/whatsapp.jpg"
 import "../css/style.css"
 import Testimonial from "./Testimonial"
 
@@ -15,103 +14,48 @@ const Hero = () => {
     <div>
          <div className="container-fluid bg-primary hero-header mb-5">
         <div className="container text-center w-100 h-50">
-            <h3 className="display-4 text-white mb-3 animated slideInDown">Home</h3>
-            <img  className="image11"src={image11} alt='' />
+            <h4 className= "flip text-white mb-3 animated slideInDown">India's premier WhatsApp Marketing & Automation Software <br/>
+            with built-in Google Map Data Extractor</h4>
+            <img  className="responsive"src={image11} alt='' />
        
-            {/* <nav aria-label="breadcrumb">
-                <ol className="breadcrumb justify-content-center mb-0 animated slideInDown">
-                    <li className="breadcrumb-item"><a className="text-white" href="#">Home</a></li>
-                    <li className="breadcrumb-item"><a className="text-white" href="#">Pages</a></li>
-                    <li className="breadcrumb-item text-white active" aria-current="page">Products</li>
-                </ol>
-            </nav> */}
         </div>
     </div>
-    <Feature /><br/>
+    <Feature /><br/><hr/>
     <br/>
     <div className="container-fluid py-5">
     <div className="container">
         <div className="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style={{"max-width": "600px"}}>
-            <h1 className="text-primary mb-3"><span className="fw-light text-dark">Our</span> Marketing Product</h1>
+            <h1 className="text text-primary mb-3"><span className="fw-light text-dark">Our</span> Marketing Product</h1>
             <p className="mb-5">Connect. Engage. Grow.</p>
         </div>
         <div className="row g-4">
-            {/* <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                <div className="product-item text-center border h-100 p-3">
-                    <img className="img-fluid mb-4" src={image1} alt="..."/>
-                    <div className="mb-2">
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small>(99)</small>
-                    </div>
-                    <a href="#" className="h6 d-inline-block mb-2">One WA Sender</a>
-                    <h5 className="text-primary mb-3">₹999</h5>
-                    <a href="#" className="btn btn-outline-primary px-3">Add To Cart</a>
-                </div>
-            </div> */}
-            {/* <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                <div className="product-item text-center border h-100 p-4">
-                    <img className="img-fluid mb-4" src={image1} alt="..."/>
-                    <div className="mb-2">
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small>(99)</small>
-                    </div>
-                    <a href="#" className="h6 d-inline-block mb-2">One WA Sender</a>
-                    <h5 className="text-primary mb-3">₹999</h5>
-                    <a href="#" className="btn btn-outline-primary px-3">Add To Cart</a>
-                </div>
-            </div>
-            <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                <div className="product-item text-center border h-100 p-4">
-                    <img className="img-fluid mb-4" src={image1} alt="..."/>
-                    <div className="mb-2">
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small>(99)</small>
-                    </div>
-                    <a href="#" className="h6 d-inline-block mb-2">One WA Sender</a>
-                    <h5 className="text-primary mb-3">₹999</h5>
-                    <a href="#" className="btn btn-outline-primary px-3">Add To Cart</a>
-                </div>
-            </div> */}
-            {/* <div className="col-5 wow fadeIn" data-wow-delay="0.7s">
-                <div className="product-item text-center border h-100 p-4">
-                    <img className="img-fluid  mb-4" src={image1} alt="..."/>
-                   
-                </div>
-            </div> */}
-            {/* <div className='col-4 mx-5 my-5' data-wow-delay="0.7s">
-                   <div className="mb-2">
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small className="fa fa-star text-primary"></small>
-                        <small>(99)</small>
-                    </div>
-                    <a href="#" className="h6 d-inline-block mb-2">One WA Sender</a>
-                    <h5 className="text-primary mb-3">₹999</h5>
-                    <a href="#" className="btn btn-outline-primary px-3">Add To Cart</a>
-                   </div> */}
-                   <div class="card bg-primary text-white">
-  <img src={image11} class="card-img" alt="..."/>
-  <div class="card-img-overlay">
-    <h5 class="card-title">OneWASender</h5>
-    <p class="card-text">A product that will benefit everyone.</p>
-    {/* <p class="card-text">Last updated 3 mins ago</p> */}
+                   <div className="card bg-primary text-white">
+  <img src={image11} className="card-img" alt="..."/>
+  <div className="card-img-overlay">
+    <h3 className=" card-title text-white">OneWASender</h3>
+    <p className="card-text my-4 mx-1">A product that will benefit everyone.
+    <ul>
+        <li>Anti-Ban Settings</li>
+        <li>Auto Reply BOT</li>
+        <li>Auto Updates</li>
+        <li>Bulk send Unlimited Messages</li>
+        <li>Send Messages to Groups</li>
+        <li>Grab Members Data from Groups</li>
+        <li>WhatsApp Warmer</li>
+        <li>Google Map Data Extractor <br/>and much more...</li>
+        </ul>
+        </p>
+    <div className='right'>
+    <li>🚀 Instant Download 🚀</li> <li>🛠️ Installation Support 🛠️</li><li>
+🔄 Lifetime Auto Updates 🔄
+</li><br/>
+  <li>🔐 Original Licensed Product 🔐</li><li>📦 15 Best Add-Ons in One App 📦</li><br/>
+    </div>
   </div>
+ 
 </div>
         </div>
+        
     </div>
 </div>
 <div className="container-fluid py-5">
@@ -208,7 +152,7 @@ const Hero = () => {
                 <h1 className="text-primary mb-5"><span className="fw-light text-dark">If You Have Any Query,</span> Please Contact Us</h1></div>
             <div className="row g-5">
                 <div className="col-lg-7 wow fadeIn" data-wow-delay="0.1s">
-                    {/* <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> */}
+                   
                     <div className="wow fadeIn" data-wow-delay="0.3s">
                         <form>
                             <div className="row g-3">
@@ -255,6 +199,9 @@ const Hero = () => {
  <Testimonial/>
 <NewsLetter/>
 <Footer/>
+<div>
+   <a href='https://wa.me/918981818181' target='_blank'> <img src={whatsappimage} alt='...' className='wimage'/></a>
+</div>
     </div>
   )
 }

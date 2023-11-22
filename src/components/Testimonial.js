@@ -1,20 +1,12 @@
 import React from "react";
-import image1 from "../images/shampoo_3.png"
-import test1 from "../images/testimonial-1.jpg";
-import test2 from "../images/testimonial-2.jpg";
-import test3 from "../images/testimonial-3.jpg";
+import test1 from "../images/harsh-patel.jpeg";
+import test2 from "../images/shivam-farkare.jpeg";
+import test3 from "../images/aman-patel.jpeg";
 
 const Testimonial = () => {
   return (
     <div>
-      {/* <div class="container-fluid bg-primary hero-header mb-5">
-        <div class="container text-center">
-          <h1 class="display-4 text-white mb-3 animated slideInDown">
-            Testimonials
-          </h1>
-          <img  className="image11"src={image1} alt='' />
-        </div>
-      </div> */}
+      
       <div className="container-fluid testimonial bg-primary my-5 py-5">
         <div className="container text-white py-5">
           <div
@@ -26,10 +18,10 @@ const Testimonial = () => {
               Our Customer Said{" "}
               <span className="fw-light text-dark">About Our OneWAsender</span>
             </h1>
-            <p className="mb-5">
+            <h5 className="text-white mb-5">
               OneWAsender is the epitome of WhatsApp marketing, a powerful tool
               to supercharge your business's outreach and engagement.
-            </p>
+            </h5>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-8">
@@ -39,9 +31,9 @@ const Testimonial = () => {
               >
                
                 <div className="testimonial-item text-center" data-dot="1">
-                <h5 className="mb-1">Jennifer Elbert</h5>
+                <h5 className="mb-1">Harsh Patel</h5>
                   <h6 className="fw-light text-white fst-italic mb-0">
-                  Entrepreneur
+                  Founder & CEO of OneSMM.in
                   </h6>
                   <img className="img-fluid1 border p-2 mb-2" src={test1} alt="" /><br/>
                   <h5 className="fw-light lh-base text-white">
@@ -51,9 +43,9 @@ const Testimonial = () => {
                     drive impressive engagement. A must-have for any business
                     serious about success.<br/><br/>
                   </h5>
-                  <h5 className="mb-1">Williams Smith</h5>
+                  <h5 className="mb-1">Shivam Farkare</h5>
                   <h6 className="fw-light text-white fst-italic mb-0">
-                    Business Men
+                    Founder & CEO of One2Studios.com
                   </h6>
                 </div>
                 <div className="testimonial-item text-center" data-dot="2">
@@ -65,9 +57,9 @@ const Testimonial = () => {
                     with our customers on a whole new level and witness
                     remarkable results in our outreach campaigns.<br/><br/>
                   </h5>
-                  <h5 className="mb-1">Antonio</h5>
+                  <h5 className="mb-1">Aman Patel</h5>
                   <h6 className="fw-light text-white fst-italic mb-0">
-                  Business man
+                  Founder & CEO of OneYaatri.com
                   </h6>
                 </div>
                 <div className="testimonial-item text-center" data-dot="3">
